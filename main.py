@@ -51,7 +51,7 @@ def menu_principal():
     # Page's basic configuration 
 
     st.set_page_config(page_title='Neto Pinheiro', page_icon='neto.png', layout='wide')
-    st.logo('resources/neto.png')
+    st.logo('neto.png')
 
     # Links
 
@@ -86,7 +86,7 @@ def menu_principal():
         st.caption('Junho de 2024 - O momento')
         st.write('''Com um olhar analítico e proativo, estou construindo uma expertise em Contabilidade e Ciência de Dados. Meu objetivo é identificar oportunidades de melhoria e impulsionar o crescimento financeiro, gerando valor tanto para a minha empresa quanto para nossos clientes.''')
     with imagem:
-        st.image('resources/team.jpg')
+        st.image('team.jpg')
         
 def projetos():
 
