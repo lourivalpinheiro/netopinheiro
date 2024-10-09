@@ -177,6 +177,7 @@ def cursos():
     st.caption('Fique por dentro de tudo que concerne meus estudos.')
     st.table(df)
     st.markdown('### Quantidade de horas de estudo:')
+    st.caption('Leva-se em conta apenas a carga horária dos cursos')
     st.bar_chart(df2, x='mes', y='carga_horaria', x_label='Meses', y_label='Carga Horária')
 
 
