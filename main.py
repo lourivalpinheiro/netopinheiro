@@ -174,7 +174,6 @@ def cursos():
     st.caption('Fique por dentro de tudo que concerne meus estudos.')
     
     st.markdown("# Cursos extra-curriculares")
-    st.caption('Fique por dentro de tudo que concerne meus estudos.')
     st.table(df)
     st.markdown('### Quantidade de horas de estudo:')
     st.caption('Leva-se em conta apenas a carga horária dos cursos')
