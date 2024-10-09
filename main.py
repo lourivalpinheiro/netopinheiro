@@ -173,11 +173,28 @@ def cursos():
     st.markdown('# Conhecimento')   
     st.caption('Fique por dentro de tudo que concerne meus estudos.')
     
-    st.markdown("# Cursos extra-curriculares")
+    st.markdown("## Cursos extra-curriculares")
     st.table(df)
-    st.markdown('### Quantidade de horas de estudo:')
-    st.caption('Leva-se em conta apenas a carga horária dos cursos')
-    st.bar_chart(df2, x='mes', y='carga_horaria', x_label='Meses', y_label='Carga Horária')
+
+    # Analises
+    analise_horas, qtd_curso = st.columns(2)
+    with analise_horas:
+        st.markdown('## Quantidade de horas de estudo:')
+        st.caption('Leva-se em conta, somente, a carga horária dos cursos.')
+        st.bar_chart(df2, x='mes', y='carga_horaria', x_label='Meses', y_label='Carga Horária')
+    with qtd_curso:
+        dic = {
+            "mes": ['Outubro', 'Maio', 'Junho', 'Agosto', 'Março'],
+            "qtd_meses": [1, 2, 3, 4, 1]
+        }
+
+        analise_curso = pd.DataFrame(dic)
+
+        st.markdown('## Quantidade de cursos por mês:')
+        st.bar_chart(analise_curso,  x='mes', y='qtd_meses', x_label='Meses', y_label='Quantidade de cursos' )
+
+
+
 
 
 
