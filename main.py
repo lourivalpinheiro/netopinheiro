@@ -21,7 +21,7 @@ def curriculo():
             'Certificação Lean Seis Sigma - White Belt',
             'Do R ao H'],
     
-    "mes": ['Outubro'
+    "mes": ['Outubro',
             'Outubro', 
             'Maio', 
             'Agosto',
