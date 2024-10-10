@@ -8,7 +8,8 @@ def curriculo():
 
     dicionario = {
 
-    "nome": ['Inteligência Emocional 4.0', 
+    "nome": ['Controladoria',
+            'Inteligência Emocional 4.0', 
             'Microsoft Excel - Básico',
             'Iniciação Contábil',
             'Metodologia de escrituração contábil integrada',
@@ -20,7 +21,8 @@ def curriculo():
             'Certificação Lean Seis Sigma - White Belt',
             'Do R ao H'],
     
-    "mes": ['Outubro', 
+    "mes": ['Outubro'
+            'Outubro', 
             'Maio', 
             'Agosto',
             'Agosto',
@@ -33,6 +35,7 @@ def curriculo():
             'Março'],
 
     "carga_horaria": [
+       6,
        4,
        15,
        2,
@@ -46,7 +49,8 @@ def curriculo():
        10
     ],
 
-    "instituicao": ['Conquer Business School', 
+    "instituicao": ['Cefis',
+                    'Conquer Business School', 
                     'Fundação Bradesco', 
                     'Cefis',
                     'Cefis',
@@ -107,7 +111,8 @@ def cursos():
 
     dicionario = {
 
-    "nome": ['Inteligência Emocional 4.0', 
+    "nome": ['Controladoria',
+            'Inteligência Emocional 4.0', 
             'Microsoft Excel - Básico',
             'Iniciação Contábil',
             'Metodologia de escrituração contábil integrada',
@@ -119,7 +124,8 @@ def cursos():
             'Certificação Lean Seis Sigma - White Belt',
             'Do R ao H'],
     
-    "mes": ['Outubro', 
+    "mes": ['Outubro',
+            'Outubro', 
             'Maio', 
             'Agosto',
             'Agosto',
@@ -132,6 +138,7 @@ def cursos():
             'Março'],
 
     "carga_horaria": [
+       6,
        4,
        15,
        2,
@@ -145,7 +152,8 @@ def cursos():
        10
     ],
 
-    "instituicao": ['Conquer Business School', 
+    "instituicao": ['Cefis',
+                    'Conquer Business School', 
                     'Fundação Bradesco', 
                     'Cefis',
                     'Cefis',
