@@ -1,2 +1,2 @@
 [database]
-database = 'data.xlsx'
+file = 'data.xlsx'
