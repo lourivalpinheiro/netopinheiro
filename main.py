@@ -166,7 +166,7 @@ lifelong = st.Page(lifelong_learning, title='Lifelong Learning')
 
 # Navigation Bar
 
-pg = st.navigation(
+page_navigation = st.navigation(
     {
         "📑 Sobre mim": [principal],
         "📰 Artigos": [lifelong],
@@ -175,4 +175,4 @@ pg = st.navigation(
     }
 )
 
-pg.run()
+page_navigation.run()
