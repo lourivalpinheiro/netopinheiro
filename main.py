@@ -38,7 +38,7 @@ def curriculo():
 
     st.markdown('# Cursos extracurriculares')
     st.markdown('---')
-    st.table(df)
+    st.dataframe(df)
 
     # Experience 
 
