@@ -7,8 +7,8 @@ import plotly.express as plt
 def curriculo():
    
 
-    df = pd.read_excel('files\data.xlsx')
-
+    conn = st.connection('mysql', type='sql')
+    df = conn.query('SELECT * from curso;')
     # Page's basic configuration 
 
     st.set_page_config(page_title='Neto Pinheiro', page_icon='neto.png', layout='wide')
