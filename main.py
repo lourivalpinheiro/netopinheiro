@@ -7,7 +7,7 @@ import plotly.express as plt
 def curriculo():
    
 
-    conn = st.connection('mysql', type='sql')
+    conn = st.connection('mysql', type='SQLConnection')
     df = conn.query('SELECT * from curso;')
     # Page's basic configuration 
 
